@@ -1,0 +1,35 @@
+# Pet Shop
+
+## Categoria
+
+- Id - number
+- Descricao - string
+
+## Tutor
+
+- Id - number
+- Nome - string
+- Telefone - string
+- Email - string
+
+## Animal
+
+- Id - number
+- Nome - string
+- Raça - string
+- Peso - number
+- IdCategoria - number
+- IdTutor - number
+
+# Construção da Aplicação
+
+## Menu
+1. Cadastrar Categoria
+2. Cadastrar Tutor
+3. Cadastrar Animal
+4. Listar Categoria
+   1. Quantos animais temos por categoria
+5. Listar Tutor
+   1. Quantos animas temos por tutor
+6. Listar Animal
+   1. Nome do Tutor e Descrição da categoria
