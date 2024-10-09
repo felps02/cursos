@@ -29,5 +29,7 @@ public class Aluno {
         return curso;
     }
 
-    
+    public int getId_aluno() {
+        return id_aluno;
+    }
 }

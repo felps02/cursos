@@ -156,7 +156,7 @@ public class Menu {
     public static void listarAlunos()
     {
                 alunos.forEach(aluno -> {
-                    System.out.println("Aluno: " + aluno.getNome() + " | Nascimento: " + aluno.getDataNascimento() + " | CPF: " + aluno.getCpf());
+                    System.out.println("ID: " + aluno.getId_aluno() + "Aluno: " + aluno.getNome() + " | Nascimento: " + aluno.getDataNascimento() + " | CPF: " + aluno.getCpf());
                     System.out.println("Curso: " + aluno.getCurso().getNome());
                 });
     }
